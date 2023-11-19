@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    
+}
+
+.tools-container {
+    background-color: grey;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3.tools {
+    height: 10vh;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.win-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    padding: 0 20px;
+}
+
+button{
+    height: 25px;
+    width: 25px;
+}
+
+/* content container */
+.content-container , .content-container-b{
+    display: flex;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.content-container {
+    height: 70vh;
+}
+
+.content-container-b {
+    height: 10vh;
+}
+
+.l-box {
+    background-color: lightgray;
+    width: 30%;
+    padding: 20px;
+}
+
+.r-box {
+    padding: 20px;
+    width: 70%;
+}
+
+.r-box.add-icons {
+    padding: 20px;
+    width: 70%;
+}
+
+ul {
+    margin: 20px 0;
+}
+
+.add-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* style sync btn */
+.sync-btn {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    background-color: grey;
+    padding: 0 20px;
+}
+
+.btn {
+    width: 160px;
+    height: 30px;
+    font-size: 18px;
+}
+

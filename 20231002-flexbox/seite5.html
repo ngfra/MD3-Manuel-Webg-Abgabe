@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>seite5</title>
+  </head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    .toolbar {
+      background-color: red;
+    }
+
+    .container-1{
+      display: flex;
+    }
+    
+    .slidebar-links, .slidebar-rechts{
+        background-color: green;
+        height: 100%;
+    }
+
+    .content {
+        background-color: blue;
+        height: 100%;
+    }
+
+    .slidebar-links, .slidebar-rechts, .content, .box{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 20px;
+    }
+
+    .statusbar {
+        background-color: purple;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+        <div class="box toolbar">Toolbar</div>
+
+        <div class="box container-1">
+            <div class="slidebar-links">Slidebar links</div>
+            <div class="content">Content</div>
+            <div class="slidebar-rechts">Slidebar rechts</div>
+        </div>
+
+        <div class="box statusbar">Statusbar</div>
+    </div>
+  </body>
+</html>
